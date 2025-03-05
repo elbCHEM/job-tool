@@ -16,13 +16,13 @@ readme = "README.md"
 
 requires-python = ">=3.11"
 dependencies = [
-    "click"
-    "colorama"
+    "click",
+    "colorama",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest"
-    "flake8"
-    "mypy"
+    "pytest",
+    "flake8",
+    "mypy",
 ]
