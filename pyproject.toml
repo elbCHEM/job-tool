@@ -1,22 +1,28 @@
-[tool.poetry]
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
 name = "jobtool"
 version = "0.1.0"
 description = "A set of functionallities that I often need when working on Niflheim"
-authors = ["ELB <elb@chem.ku.dk>"]
+
+authors = [
+    {name = "ELB",email = "elb@chem.ku.dk"}
+]
 license = "MIT"
 readme = "README.md"
 
-[tool.poetry.dependencies]
-python = "^3.12"
-click = "^8.1.8"
-ase = "^3.24.0"
+requires-python = ">=3.11"
+dependencies = [
+    "click",
+    "colorama",
+]
 
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.3.5"
-mypy = "^1.15.0"
-flake8 = "^7.1.2"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "flake8",
+    "mypy",
+]
