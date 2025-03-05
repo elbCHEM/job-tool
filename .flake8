@@ -1,0 +1,15 @@
+[flake8]
+max-doc-length = 127
+max-line-length = 127
+exclude =
+    .git,
+    .venv,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist
+
+count = True
+statistics = True
+max-complexity = 10
