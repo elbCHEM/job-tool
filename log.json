@@ -1,0 +1,2114 @@
+[
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopI/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-covered)/ontopII/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopI/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-metal-covered)/ontopII/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopI/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCo-(pt-pt-covered)/ontopII/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopI/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-3",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-4",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-5",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-6",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-7",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-8",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-covered)/ontopII/number-9",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-0",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-1",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-10",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-2",
+        "status": "CONVERGED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-3",
+        "status": "UNFISHINED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-metal-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtCu-(pt-pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-metal-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtFe-(pt-pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-metal-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtMn-(pt-pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-metal-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtNi-(pt-pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-metal-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/PtPt-(pt-pt-covered)/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Co/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-0",
+        "status": "UNFISHINED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Cu/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Fe/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Mn/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Ni/ontopII/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopI/number-9",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-0",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-1",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-10",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-2",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-3",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-4",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-5",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-6",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-7",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-8",
+        "status": "NOT_STARTED"
+    },
+    {
+        "path": "C:/Users/Emil/Python/job-tool/testfolders/pure-Pt/ontopII/number-9",
+        "status": "NOT_STARTED"
+    }
+]
