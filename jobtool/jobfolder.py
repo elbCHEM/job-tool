@@ -14,7 +14,7 @@ import enum
 import json
 import pathlib
 import itertools
-from typing import TypedDict, Unpack, TextIO, Optional, Literal, NamedTuple, Iterator
+from typing import TextIO, Optional, Literal, NamedTuple, Iterator
 
 
 class Status(enum.StrEnum):
@@ -26,78 +26,76 @@ class Status(enum.StrEnum):
     CONVERGED = enum.auto()
 
 
-class Options(TypedDict):
-    output: Optional[TextIO]
-    include: Optional[set[Status]]
-    exclude: Optional[set[Status]]
-    lines_checked: Optional[int]
-    without_status: bool
-    format: Optional[Literal['csv', 'json']]
-    returned: bool
-
-
 class Result(NamedTuple):
     path: pathlib.Path
     status: Status
 
-    def asjson(self) -> dict:
-        return {
-            'path': self.path.absolute().as_posix(),
-            'status': self.status.name,
-        }
-
-    def __str__(self) -> str:
-        return f"{self.path.absolute().as_posix()}, {self.status.name}"
+    @property
+    def path_as_str(self) -> str:
+        return self.path.absolute().as_posix()
 
 
 CONVERGED_SIGNAL = re.compile('^Date:')
 NOT_CONVERGED_SIGNAL = re.compile(r'^Did not converge!\s*$')
 
 
-def get_jobfolders(folder: os.PathLike, **options: Unpack[Options]) -> Optional[list[Result]]:
-    """Go through a folderstructure recursively and make a list of jobfolder.
+def get_jobfolders(folder: os.PathLike,
+                   /,
+                   returned: bool = False,
+                   exclude: Optional[Iterator[Status | str]] = None,
+                   include: Optional[Iterator[Status | str]] = None,
+                   output: TextIO = sys.stdout,
+                   format: Literal['json', 'csv'] = 'json',
+                   without_status: bool = False,
+                   lines_checked: int = 20,
+                   ) -> Optional[list[Result]]:
+    """Generate a list of all the jobfolders in a given directory tree.
 
-    Arguments:
-        folder (os.PathLike): Root folder of the search
+    Args:
+        folder (os.PathLike): Top of the searched directory tree.
+        returned (bool, optional): If True, results are returned. Defaults to False.
+        exclude (Optional[Iterator[Status | str]], optional): Statuses excluded from the results list. Defaults to None.
+        include (Optional[Iterator[Status | str]], optional): Statuses included from the results list. Defaults to None.
+        output (TextIO, optional): File where results are outputted to. Defaults to sys.stdout.
+        format (Literal['json';, 'csv], optional): Format of the results list. Defaults to 'json'.
+        without_status (bool, optional): If True, statuses are removed from the output. Defaults to False.
+        lines_checked (int, optional): Number of lines checked in log file to determine status. Defaults to 20.
 
-    Options:
-        output (TextIO): Location where results are saved. (Default is sys.stdout)
-        include (None | list[Status]): If not None, include only these statues in the results. Default is None.
-        exclude (None | list[Status]): If not None, the provided statuses are filtered from results. Default is None.
+    Raises:
+        ValueError: If provided format is not accepted
 
     Returns:
-        None | Results: ...
+        Optional[list[Result]]: If "returned" flag is on, then list of results are returned. Else None.
     """
-    out = options.get('output', None) or sys.stdout
-    format = options.get('format', None)
-
     # Generate walker gets status of all job folders
-    results = walker(folder, **options)
+    results = walker(folder, lines_checked)
 
     # Apply filters to the walker
-    if (exclude := options.get('exclude', None)):
-        results = itertools.filterfalse(lambda result: result.status in exclude, results)
-    if (include := options.get('include', None)):
-        results = filter(lambda result: result.status in include, results)
-    if options.get('without_status', False):
-        if format == 'json':
-            raise ValueError('Cannot print to json when without_status is given')
-        results = map(lambda x: x.path, results)
+    if exclude is not None:
+        results = itertools.filterfalse(_filter_func(exclude), results)
+    if include is not None:
+        results = filter(_filter_func(include), results)
 
-    # Output results
-    if options.get('returned', False) or format is None:
+    # Output results to output via given format and output method
+    if returned:
         return list(results)
-
     if format == 'json':
-        json.dump([result.asjson() for result in results], out, indent=4)
+        write_as_json(results, output, without_status)
     elif format == 'csv':
-        for result in results:
-            out.write(str(result) + '\n')
-        out.writelines(map(str, results))
+        write_to_csv(results, output, without_status)
     else:
         raise ValueError(f"Unable to handle formal {format}")
 
     return None
+
+
+def _filter_func(group: Iterator[Status | str]):
+    group_as_statuses = set(x if isinstance(x, Status) else Status(x.lower().strip()) for x in group)
+
+    def func(result: Result) -> bool:
+        return result.status in group_as_statuses
+
+    return func
 
 
 def walker(folder: os.PathLike, /, lines_checked: int = 20) -> Iterator[Result]:
@@ -160,6 +158,24 @@ def get_status(path: pathlib.Path, /, lines_checked: int = 20, **_) -> Optional[
         return Status.NOT_CONVERGED
 
     return Status.UNFISHINED
+
+
+def write_as_json(results: Iterator[Result], output: TextIO, /, without_status: bool = False) -> None:
+    if without_status:
+        in_json_format = [{'path': result.path_as_str} for result in results]
+    else:
+        in_json_format = [{'path': result.path_as_str, 'status': result.status.value} for result in results]
+
+    json.dump(in_json_format, output, indent=4)
+
+
+def write_to_csv(results: Iterator[Result], output: TextIO, /, without_status: bool = False) -> None:
+    if without_status:
+        formatter = "{result.status.value}, {result.path_as_str}\n"
+    else:
+        formatter = "{result.path_as_str}\n"
+    for result in results:
+        output.write(formatter.format(result=result))
 
 
 def is_jobfolder(path: pathlib.Path) -> bool:
