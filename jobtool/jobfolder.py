@@ -81,15 +81,15 @@ def get_jobfolders(folder: os.PathLike, **options: Unpack[Options]) -> Optional[
         results = filter(lambda result: result.status in include, results)
     if options.get('without_status', False):
         if format == 'json':
-            raise ValueError(f'Cannot print to json when without_status is given')
+            raise ValueError('Cannot print to json when without_status is given')
         results = map(lambda x: x.path, results)
 
     # Output results
     if options.get('returned', False) or format is None:
         return list(results)
-    
+
     if format == 'json':
-            json.dump([result.asjson() for result in results], out, indent=4)
+        json.dump([result.asjson() for result in results], out, indent=4)
     elif format == 'csv':
         for result in results:
             out.write(str(result) + '\n')
@@ -100,18 +100,33 @@ def get_jobfolders(folder: os.PathLike, **options: Unpack[Options]) -> Optional[
     return None
 
 
-def walker(folder: os.PathLike, /, **options: Unpack[Options]) -> Iterator[Result]:
-    def root_as_path(triplet: tuple[str, list[str], list[str]]) -> pathlib.Path:
+def walker(folder: os.PathLike, /, lines_checked: int = 20) -> Iterator[Result]:
+    """Generate a walker iterator that walks all the jobfolder in the directory tree.
+
+    Given a folder, the walker iterates all subfolders that are considered as a jobfolder.
+    Here, a jobfolder is a folder that includes:
+     - An "initial.traj" file. (Required)
+     - An "log.txt" file. (Optional)
+     - A "results.traj" file. (Optional)
+
+    Args:
+        folder (os.PathLike): Topfolder of the walker.
+        lines_checked (int, optional): Number of lines checked in the end of the log.txt file to check status. Defaults to 20.
+
+    Yields:
+        Iterator[Result]: Iterator that outputs (pathlib.Path, Status) of jobfolders.
+    """
+    def root_as_path(triplet: tuple[os.PathLike, list[str], list[str]]) -> pathlib.Path:
         root, *_ = triplet
         return pathlib.Path(root)
 
     def as_results(path: pathlib.Path) -> Result:
-        status = get_status(path, **options)
+        status = get_status(path, lines_checked)
         assert status is not None
         return Result(path, status)
 
     # [(str, [str], [str])] => [Path] => [JobfolderPaths] => [Results]
-    return map(as_results, filter(is_jobfolder, map(root_as_path, os.walk(folder))))
+    return map(as_results, filter(is_jobfolder, map(root_as_path, os.walk(folder))))  # type: ignore
 
 
 def get_status(path: pathlib.Path, /, lines_checked: int = 20, **_) -> Optional[Status]:
@@ -126,7 +141,7 @@ def get_status(path: pathlib.Path, /, lines_checked: int = 20, **_) -> Optional[
     """
     if not is_jobfolder(path):
         return None
-    
+
     # Job is not started if logfile is not existing
     if not (logfile := path.joinpath('log.txt')).exists():
         return Status.NOT_STARTED
@@ -135,10 +150,10 @@ def get_status(path: pathlib.Path, /, lines_checked: int = 20, **_) -> Optional[
         lines = filewrapper.readlines()
         if 0 == len(lines):
             return Status.UNKNOWN  # Cannot determine process if log file is empty
-    
+
     # Something has definetly run. The last lines can determine the result
     last_few_lines = lines[-lines_checked:]
-    
+
     if CONVERGED_SIGNAL.match(last_few_lines[-1]):
         return Status.CONVERGED
     if any(map(NOT_CONVERGED_SIGNAL.match, last_few_lines)):
