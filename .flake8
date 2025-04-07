@@ -1,5 +1,5 @@
 [flake8]
-max-doc-length = 127
+max-doc-length = 150
 max-line-length = 127
 exclude =
     .git,
