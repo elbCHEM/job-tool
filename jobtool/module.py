@@ -16,6 +16,10 @@ import pathlib
 import itertools
 from typing import TextIO, Optional, Literal, NamedTuple, Iterator
 
+from typing import * 
+
+from jobtool.filters import _apply_filters
+
 
 class Status(enum.StrEnum):
     UNKNOWN = enum.auto()
@@ -68,13 +72,12 @@ def get_jobfolders(folder: os.PathLike,
         Optional[list[Result]]: If "returned" flag is on, then list of results are returned. Else None.
     """
     # Generate walker gets status of all job folders
-    results = walker(folder, lines_checked)
+    results = get_walker(folder, lines_checked)
 
-    # Apply filters to the walker
     if exclude is not None:
-        results = itertools.filterfalse(_filter_func(exclude), results)
+        results = itertools.filterfalse(has_status_in_set(exclude), results)
     if include is not None:
-        results = filter(_filter_func(include), results)
+        results = filter(has_status_in_set(include), results)
 
     # Output results to output via given format and output method
     if returned:
@@ -89,16 +92,84 @@ def get_jobfolders(folder: os.PathLike,
     return None
 
 
-def _filter_func(group: Iterator[Status | str]):
-    group_as_statuses = set(x if isinstance(x, Status) else Status(x.lower().strip()) for x in group)
-
-    def func(result: Result) -> bool:
-        return result.status in group_as_statuses
-
-    return func
 
 
-def walker(folder: os.PathLike, /, lines_checked: int = 20) -> Iterator[Result]:
+
+def get_jobfolders_new(folder: os.PathLike,
+                       /, 
+                       lines_checked: int, 
+                       filter_options, 
+                       formatter_options, 
+                       logging_options
+                       ) -> list:
+
+    # Generate walker gets status of all job folders
+    walker = get_walker(folder, lines_checked)
+    
+    # Configurate logging
+    walker = add_logging(walker, **logging_options)
+
+    # Apply filters to the walker
+    walker = _apply_filters(walker, **filter_options)
+
+    # Apply formatting to the walker
+    walker = _format_output(walker, **formatter_options)
+
+    return list(walker)
+
+
+
+
+def _apply_filters(walker: Iterator[Result], 
+                   /, 
+                   include: Optional[str | Iterable[str]] = None, 
+                   exclude: Optional[str | Iterable[str]] = None,
+                   ) -> Iterable[Result]:
+    """Apply filters to the walker such that only jobfolders with given statuses are yeilded
+
+    Args:
+        walker (Iterator[Result]): Iterator that yeilds (path, status)-tuples of jobfolders
+
+    Keywords:
+        exclude (Iterator[str], optional): Statuses excluded from the results list. Defaults to None.
+        include (Iterator[str], optional): Statuses included from the results list. Defaults to None.
+
+    Yields:
+        Iterator[Result]: _description_
+    """
+    if exclude is not None:
+        results = itertools.filterfalse(has_status_in_set(exclude), results)
+
+    if include is not None:
+        results = filter(has_status_in_set(include), results)
+
+
+def has_status_in_set(statuses: str | Collection[str]) -> Callable[[str], bool]:
+    if isinstance(statuses, str):
+        return homogenize_user_input(statuses).__eq__
+        
+    if isinstance(statuses, Collection):
+        return set(homogenize_user_input(x) for x in statuses).__contains__
+    
+    raise TypeError('Cannot handle type {}')
+
+
+def homogenize_user_input(userstring: str) -> str: ...
+
+
+
+def _format_output(walker: Iterator[Result], /, **options) -> Iterator[Result]: ...
+def add_logging(walker: Iterator[Result], /, **options) -> Iterator[Result]: ...
+
+
+
+
+
+
+
+
+
+def get_walker(folder: os.PathLike, /, lines_checked: int = 20) -> Iterator[Result]:
     """Generate a walker iterator that walks all the jobfolder in the directory tree.
 
     Given a folder, the walker iterates all subfolders that are considered as a jobfolder.
