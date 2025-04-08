@@ -1,8 +1,8 @@
 import os
 import pathlib
 
-from typing import NamedTuple, Iterator, Any
 from jobtool.jobfolders import Status, status_getter
+from typing import NamedTuple, Iterator, Optional, Any
 
 
 class Result(NamedTuple):
@@ -13,7 +13,7 @@ class Result(NamedTuple):
         return self.path.absolute().as_posix()
 
 
-def get_walker(folder: os.PathLike, /, lines_checked: int = 20) -> Iterator[Result]:
+def get_walker(folder: os.PathLike, /, lines_checked: Optional[int] = None) -> Iterator[Result]:
     """Generate a walker iterator that walks all the jobfolder in the directory tree.
 
     Given a folder, the walker iterates all subfolders that are considered as a jobfolder.
@@ -24,7 +24,7 @@ def get_walker(folder: os.PathLike, /, lines_checked: int = 20) -> Iterator[Resu
 
     Args:
         folder (os.PathLike): Topfolder of the walker.
-        lines_checked (int, optional): Number of lines checked in the end of the log.txt file to check status. Defaults to 20.
+        lines_checked (int, optional): Number of lines checked in the end of the log.txt file to check status. Defaults to None.
 
     Yields:
         Iterator[Result]: Iterator that outputs (pathlib.Path, Status) of jobfolders.
