@@ -12,7 +12,7 @@ import enum
 import pathlib
 import functools
 
-from typing import Callable
+from typing import Callable, Optional
 
 
 class Status(enum.StrEnum):
@@ -63,8 +63,10 @@ def get_status(jobfolder: pathlib.Path, /, lines_checked: int = DEFAULT_LINES_CH
 
 
 def status_getter(strict: bool = False,
-                  lines_checked: int = DEFAULT_LINES_CHECKED
+                  lines_checked: Optional[int] = DEFAULT_LINES_CHECKED
                   ) -> Callable[[pathlib.Path], Status]:
+    lines_checked = lines_checked or DEFAULT_LINES_CHECKED
+
     if not strict:
         return functools.partial(get_status, lines_checked=lines_checked)
 

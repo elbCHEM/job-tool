@@ -9,9 +9,6 @@ class Result(NamedTuple):
     path: pathlib.Path
     status: Status
 
-    def __repr__(self) -> str:
-        return self.path.absolute().as_posix()
-
 
 def get_walker(folder: os.PathLike, /, lines_checked: Optional[int] = None) -> Iterator[Result]:
     """Generate a walker iterator that walks all the jobfolder in the directory tree.

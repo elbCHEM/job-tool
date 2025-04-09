@@ -28,13 +28,12 @@ def apply_filters(walker: Iterator[Result],
 
 def check_status_match(statuses: str | Iterable[str]) -> Callable[[Result], bool]:
     """Generate a function that check if a given object matches a collection of strings."""
-    match statuses:
-        case str():
-            check_match = homogenize_user_input(statuses).__eq__
-        case Iterable():
-            check_match = set(homogenize_user_input(x) for x in statuses).__contains__
-        case _:
-            raise TypeError(f'Cannot handle type of "strings" being {type(statuses)}')
+    if isinstance(statuses, str):
+        check_match = homogenize_user_input(statuses).__eq__
+    elif isinstance(statuses, Iterable):
+        check_match = set(homogenize_user_input(x) for x in statuses).__contains__
+    else:
+        raise TypeError(f'Cannot handle type of "strings" being {type(statuses)}')
 
     def check_status(result: Result) -> bool:
         """Check if a walker result has a status equal to one of the provied statuses"""
