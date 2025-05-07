@@ -37,9 +37,9 @@ def jobfolders(folder: os.PathLike, output: None | os.PathLike, **options) -> No
     if not output:
         return get_jobfolders(folder, output=sys.stdout, **options)
     if isinstance(output, str):
-       with open(output, 'w') as filewrapper:
-           return get_jobfolders(folder, output=filewrapper, **options)
-            
+        with open(output, 'w') as filewrapper:
+            return get_jobfolders(folder, output=filewrapper, **options)
+
     raise ValueError(f'Cannot use {output=} as a valid output source')
 
 
