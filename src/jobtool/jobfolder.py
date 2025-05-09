@@ -8,13 +8,14 @@ A jobfolder is a directory that has the structure
 |-     :           (optional)
 """
 import os
+import json
 import pathlib
 import operator
 import itertools
 
 from jobtool.status import Status
 from jobtool.walker import walker, Result
-from typing import Optional, Literal, Iterator, Sequence, Callable, overload
+from typing import TextIO, Optional, Literal, Iterator, Sequence, Callable, overload
 
 
 @overload
@@ -119,3 +120,27 @@ def csv_formatter(result: pathlib.Path | Result) -> str:
     if isinstance(result, Result):
         return f"{result.status.value}, {result.path.absolute().as_posix()}\n"
     raise TypeError(f'Invaid type of result: {type(result)}')
+
+
+@overload
+def write_results(fp: TextIO, result: Iterator[str], format: Literal['csv'], with_status: bool) -> None: ...
+
+
+@overload
+def write_results(fp: TextIO, result: Iterator[dict], format: Literal['json'], with_status: bool) -> None: ...
+
+
+def write_results(
+        fp: TextIO,
+        results: Iterator[str] | Iterator[dict],
+        format: Literal['csv', 'json'],
+        with_status: bool = True,
+) -> None:
+    match format:
+        case 'json':
+            json.dump(list(results), fp, indent=2)
+        case 'csv':
+            fp.write('path, status\n' if with_status else 'path\n')
+            fp.writelines(results)
+        case _:
+            raise ValueError(f'Unknown {format=}')

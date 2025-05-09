@@ -10,37 +10,47 @@ A jobfolder is a directory that has the structure
 import os
 import sys
 import click
+import pathlib
 
 import ase
 import ase.io
 import ase.visualize
+from typing import Literal, Optional, Any
 
-from jobtool.jobfolder import get_jobfolders, Status
+from jobtool.status import Status
+from jobtool.jobfolder import get_jobfolders, format_jobfolder_results, write_results
 
 
 @click.group()
-def cli() -> None: ...
+@click.option('-o', '--output', type=click.Path(dir_okay=False, path_type=pathlib.Path), help='Output file. Default is stdout')
+@click.option('--lines_checked', type=click.IntRange(min=0), help='Number of lines check in the end of the line')
+@click.option('--initialfilename', type=click.STRING, help='Name of initial files')
+@click.option('--logfilename', type=click.STRING, help='Name of log files')
+@click.pass_context
+def cli(
+    ctx,
+    output: Optional[pathlib.Path],
+    lines_checked: int,
+    initialfilename: str,
+    logfilename: str,
+) -> None:
+    ctx.ensure_object(dict)
+    ctx.obj['output'] = output
+    ctx.obj['lines_checked'] = lines_checked
+    ctx.obj['initialfilename'] = initialfilename
+    ctx.obj['logfilename'] = logfilename
 
 
 @cli.command()
-@click.argument("folder", type=click.Path(exists=True, file_okay=False))
-@click.option("--output", "-o", help='File where results are stored. Default is stdout.')
-@click.option("--include", help="Statuses that are included in the results list", type=click.STRING, multiple=True)
-@click.option("--exclude", help="Statuses that are excluded from the results list", type=click.STRING, multiple=True)
-@click.option("--format", help='Format of the results. Can be either json or csv.', type=click.STRING, default='json', show_default=True)
-@click.option("--without-status", help="If provided, status is removed from output", type=click.BOOL, is_flag=True, default=False)
-@click.option('--lines-checked', help="Number of lines check in end of log file to determine status.", type=click.IntRange(min=1, max=100))
-def jobfolders(folder: os.PathLike, output: None | os.PathLike, **options) -> None:
-    """Generate a list of all the jobfolders in a given directory tree"""
-    options = {name: value for name, value in options.items() if value}  # Remove non-provided options from options dict
-
-    if not output:
-        return get_jobfolders(folder, output=sys.stdout, **options)
-    if isinstance(output, str):
-        with open(output, 'w') as filewrapper:
-            return get_jobfolders(folder, output=filewrapper, **options)
-
-    raise ValueError(f'Cannot use {output=} as a valid output source')
+@click.pass_context
+@click.option('--remove-none', is_flag=True, help='Remove all arguments that was not provided')
+def check_args(ctx: dict, remove_none: bool) -> None:
+    """Outputs CLI context options - Mostly used for debugging"""
+    if remove_none:
+        options = {name: val for name, val in ctx.obj.items() if val is not None}
+    else:
+        options = ctx.obj
+    print(options)
 
 
 @cli.command()
@@ -53,13 +63,45 @@ def get_status_list() -> None:
 
 
 @cli.command()
-@click.argument("folder", type=click.Path(exists=True, file_okay=False))
-def display_converged(folder: os.PathLike) -> None:
-    converged_paths = get_jobfolders(folder, include="CONVERGED", without_status=True)
+@click.argument('folder', default='.', type=click.Path(exists=True, file_okay=False, path_type=pathlib.Path))
+@click.option('--include', type=click.STRING, multiple=True, help='Statusses included in the list')
+@click.option('--exclude', type=click.STRING, multiple=True, help='Statusses excluded from the list')
+@click.option('--format', default='json', type=click.STRING, help='Format of the output')
+@click.option('--without_status', is_flag=True, help='If True, the status is dropped')
+@click.pass_context
+def jobfolders(
+    ctx,
+    folder: pathlib.Path,
+    include: Optional[list[str]],
+    exclude: Optional[list[str]],
+    format: Literal['csv', 'json'],
+    without_status: bool,
+) -> None:
+    options = remove_none_provided_options(ctx.obj)
 
-    resultfiles = [x.joinpath('results.traj') for x in converged_paths]
-    trajectories = map(ase.io.read, resultfiles)
-    ase.visualize.view(trajectories)
+    results = get_jobfolders(folder, include, exclude, **options)
+    formatted = format_jobfolder_results(results, format)
+
+    if 'output' not in options:
+        write_results(sys.stdout, formatted, format, not without_status)
+    else:
+        with open(options['output'], 'w') as filewrapper:
+            write_results(filewrapper, formatted, format, not without_status)
+
+
+@cli.command()
+@click.argument("folder", default='.', type=click.Path(exists=True, file_okay=False))
+@click.pass_context
+def display_converged(ctx, folder: os.PathLike) -> None:
+    options = remove_none_provided_options(ctx.obj)
+    converged_paths = get_jobfolders(folder, include='converged', with_status=False, **options)
+    converged_results = map(lambda x: x.joinpath('results.traj'), converged_paths)
+    converged_structures = map(ase.io.read, converged_results)
+    ase.visualize.view(list(converged_structures))
+
+
+def remove_none_provided_options(options: dict) -> dict[str, Any]:
+    return {key: val for key, val in options.items() if val is not None}
 
 
 if __name__ == '__main__':
