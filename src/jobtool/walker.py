@@ -1,6 +1,7 @@
 import os
 import pathlib
 import operator
+import functools
 
 from typing import NamedTuple, Iterator
 from jobtool.status import Status, get_status, is_jobfolder
@@ -40,7 +41,7 @@ def walker(
     """
     directory_walker = os.walk(folder)  # type: ignore[type-var]
     roots = map(pathlib.Path, map(operator.itemgetter(0), directory_walker))
-    jobfolders = filter(is_jobfolder, roots)
+    jobfolders = filter(functools.partial(is_jobfolder, initialfilename=initialfilename), roots)
 
     def as_result(jobfolder: pathlib.Path) -> Result:
         status = get_status(jobfolder,

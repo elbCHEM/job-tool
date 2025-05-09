@@ -26,12 +26,14 @@ Date: ...
 Not converged
 -------------
 If a job is finished, but has not converged, then it one of its last lines have the format
-...
+Did not converge!
 
 Unfinished
 ----------
 If the jobfolder has a non-empty logfile, but it does not match converged or non-converged
 """
+from __future__ import annotations
+
 import re
 import enum
 import pathlib
@@ -44,6 +46,10 @@ class Status(enum.StrEnum):
     NOT_CONVERGED = enum.auto()
     UNFINISHED = enum.auto()
     NOT_STARTED = enum.auto()
+
+    @staticmethod
+    def from_string(string: str) -> Status:
+        return Status(string.strip().lower().replace('-', '_'))
 
 
 CONVERGED_SIGNAL = re.compile('^Date:')
