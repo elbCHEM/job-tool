@@ -18,12 +18,15 @@ from jobtool.walker import walker, Result
 from typing import TextIO, Optional, Literal, Iterator, Sequence, Callable, overload
 
 
+StatusLike = str | Status
+
+
 @overload
 def get_jobfolders(
         folder: os.PathLike,
         /,
-        include: Optional[Sequence[Status | str]],
-        exclude: Optional[Sequence[Status | str]],
+        include: Optional[StatusLike | Sequence[StatusLike]],
+        exclude: Optional[StatusLike | Sequence[StatusLike]],
         lines_checked: int,
         initialfilename: str,
         logfilename: str,
@@ -36,8 +39,8 @@ def get_jobfolders(
 def get_jobfolders(
         folder: os.PathLike,
         /,
-        include: Optional[Sequence[Status | str]],
-        exclude: Optional[Sequence[Status | str]],
+        include: Optional[StatusLike | Sequence[StatusLike]],
+        exclude: Optional[StatusLike | Sequence[StatusLike]],
         lines_checked: int,
         initialfilename: str,
         logfilename: str,
@@ -49,12 +52,12 @@ def get_jobfolders(
 def get_jobfolders(
         folder: os.PathLike,
         /,
-        include: Optional[Sequence[Status | str]] = None,  # Add finished later
-        exclude: Optional[Sequence[Status | str]] = None,  # Add finished later
+        include: Optional[StatusLike | Sequence[StatusLike]] = None,  # Add finished later
+        exclude: Optional[StatusLike | Sequence[StatusLike]] = None,  # Add finished later
         lines_checked: int = 20,
         initialfilename: str = 'initial.traj',
         logfilename: str = 'log.txt',
-        with_status: bool = False,
+        with_status: bool = True,
         **_,
 ) -> Iterator[pathlib.Path] | Iterator[Result]:
     results = walker(folder, lines_checked, initialfilename, logfilename)
@@ -65,12 +68,15 @@ def get_jobfolders(
     if exclude:
         results = itertools.filterfalse(_filter_func(exclude), results)
 
-    return results if with_status else map(operator.itemgetter('path'), results)
+    return results if with_status else map(operator.itemgetter(0), results)
 
 
 # To-Do: Add 'finished' option for input
-def _filter_func(statuses: Sequence[Status | str]) -> Callable[[Result], bool]:
-    set_of_statuses = set(map(Status.from_string, statuses))
+def _filter_func(statuses: StatusLike | Sequence[StatusLike]) -> Callable[[Result], bool]:
+    if isinstance(statuses, StatusLike):
+        set_of_statuses = {Status.from_string(statuses), }
+    else:
+        set_of_statuses = set(map(Status.from_string, statuses))
 
     def func(result: Result) -> bool:
         return result.status in set_of_statuses

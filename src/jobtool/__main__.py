@@ -18,6 +18,7 @@ import ase.visualize
 from typing import Literal, Optional, Any
 
 from jobtool.status import Status
+from jobtool.walker import walker
 from jobtool.jobfolder import get_jobfolders, format_jobfolder_results, write_results
 
 
@@ -90,14 +91,39 @@ def jobfolders(
 
 
 @cli.command()
-@click.argument("folder", default='.', type=click.Path(exists=True, file_okay=False))
+@click.argument("folder", default='.', type=click.Path(exists=True, file_okay=False, path_type=pathlib.Path))
 @click.pass_context
 def display_converged(ctx, folder: os.PathLike) -> None:
     options = remove_none_provided_options(ctx.obj)
-    converged_paths = get_jobfolders(folder, include='converged', with_status=False, **options)
-    converged_results = map(lambda x: x.joinpath('results.traj'), converged_paths)
-    converged_structures = map(ase.io.read, converged_results)
-    ase.visualize.view(list(converged_structures))
+
+    structures = []
+    for path in get_jobfolders(folder, include='converged', with_status=False, **options):
+        structures.append(ase.io.read(path.joinpath('results.traj')))
+
+    if not structures:
+        click.echo(f"No converged jobs in folder {folder}")
+        return
+    ase.visualize.view(structures)
+
+
+@cli.command()
+@click.argument("folder", default='.',  type=click.Path(exists=True, file_okay=False))
+@click.pass_context
+def count_statuses(ctx, folder: pathlib.Path) -> None:
+    options = remove_none_provided_options(ctx.obj)
+
+    # Count jobfolders in directory
+    count: dict[Status, int] = {}
+    for _, status in walker(folder, **options):
+        count[status] = count.get(status, 0) + 1
+
+    # Print to the user
+    click.echo("Count of jobfolders with status")
+    click.echo("===============================")
+    for status, __count in count.items():
+        click.echo(f"{status}: {__count}")
+    click.echo("-------------------------------")
+    click.echo(f"Total: {sum(count.values())}")
 
 
 def remove_none_provided_options(options: dict) -> dict[str, Any]:

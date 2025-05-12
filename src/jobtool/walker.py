@@ -11,10 +11,6 @@ class Result(NamedTuple):
     path: pathlib.Path
     status: Status
 
-    @property
-    def path_as_str(self) -> str:
-        return self.path.absolute().as_posix()
-
 
 def walker(
         folder: os.PathLike,
