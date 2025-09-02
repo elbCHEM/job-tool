@@ -8,43 +8,14 @@ A jobfolder is a directory that has the structure
 |-     :           (optional)
 """
 import pathlib
-import operator
 import itertools
 
 from jobtool.status import Status
 from jobtool.walker import walker, Result
-from typing import Callable, Iterator, Literal, Optional, Sequence, overload
+from typing import Callable, Iterator, Optional, Sequence
 
 
 StatusLike = str | Status
-
-
-@overload
-def get_jobfolders(
-        folder: str | pathlib.Path,
-        /,
-        include: Optional[StatusLike | Sequence[StatusLike]],
-        exclude: Optional[StatusLike | Sequence[StatusLike]],
-        lines_checked: int,
-        initialfilename: str,
-        logfilename: str,
-        with_status: Literal[True],
-) -> Iterator[Result]:
-    ...
-
-
-@overload
-def get_jobfolders(
-        folder: str | pathlib.Path,
-        /,
-        include: Optional[StatusLike | Sequence[StatusLike]],
-        exclude: Optional[StatusLike | Sequence[StatusLike]],
-        lines_checked: int,
-        initialfilename: str,
-        logfilename: str,
-        with_status: Literal[False],
-) -> Iterator[pathlib.Path]:
-    ...
 
 
 def get_jobfolders(
@@ -55,9 +26,8 @@ def get_jobfolders(
         lines_checked: int = 20,
         initialfilename: str = 'initial.traj',
         logfilename: str = 'log.txt',
-        with_status: bool = True,
         **_,
-) -> Iterator[pathlib.Path] | Iterator[Result]:
+) -> Iterator[Result]:
     results = walker(pathlib.Path(folder), lines_checked, initialfilename, logfilename)
 
     # Apply filters to the walker
@@ -66,7 +36,7 @@ def get_jobfolders(
     if exclude:
         results = itertools.filterfalse(filter_func(exclude), results)
 
-    return results if with_status else map(operator.itemgetter(0), results)
+    return results
 
 
 # To-Do: Add 'finished' option for input

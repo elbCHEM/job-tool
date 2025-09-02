@@ -108,7 +108,7 @@ def display_converged(ctx: click.Context, folder: pathlib.Path) -> None:
     options = remove_none_provided_options(ctx.obj)
 
     structures = []
-    for path in get_jobfolders(folder, include='converged', with_status=False, **options):
+    for path, _ in get_jobfolders(folder, include='converged', **options):
         structures.append(ase.io.read(path.joinpath('results.traj')))
 
     if not structures:
