@@ -13,12 +13,12 @@ class Result(NamedTuple):
 
 
 def walker(
-        folder: os.PathLike,
-        /,
-        lines_checked: int = 20,
-        initialfilename: str = 'initial.traj',
-        logfilename: str = 'log.txt',
-        ) -> Iterator[Result]:
+    folder: str | os.PathLike,
+    /,
+    lines_checked: int = 20,
+    initialfilename: str = 'initial.traj',
+    logfilename: str = 'log.txt',
+) -> Iterator[Result]:
     """Generate a walker iterator that walks all the jobfolder in the directory tree.
 
     Given a folder, the walker iterates all subfolders that are considered as a jobfolder.
@@ -27,7 +27,7 @@ def walker(
      - An "log.txt" file. (Optional)
      - A "results.traj" file. (Optional)
 
-    :param (os.PathLike) folder: Topfolder of the walker.
+    :param (str | pathlib.Path) folder: Topfolder of the walker.
     :param (int, optional) lines_checked: Lines checked in the end of the log file when checking status. Defaults to 20.
     :param (str, optional) initialfilename: Name of initial file. Default is 'initial.traj'.
     :param (str, optional) logfilename: Name of logfiles. Default is 'log.txt'
@@ -35,7 +35,7 @@ def walker(
     Yields:
         Iterator[Result]: Iterator that outputs (pathlib.Path, Status) of jobfolders.
     """
-    directory_walker = os.walk(folder)  # type: ignore[type-var]
+    directory_walker = os.walk(pathlib.Path(folder))
     roots = map(pathlib.Path, map(operator.itemgetter(0), directory_walker))
     jobfolders = filter(functools.partial(is_jobfolder, initialfilename=initialfilename), roots)
 

@@ -7,7 +7,6 @@ A jobfolder is a directory that has the structure
 |- results.traj    (optional)
 |-     :           (optional)
 """
-import os
 import sys
 import click
 import pathlib
@@ -15,11 +14,14 @@ import pathlib
 import ase
 import ase.io
 import ase.visualize
-from typing import Literal, Optional, Any
+from typing import TextIO, Literal, Optional, Any
+
+import jobtool.format as formatters
+import jobtool.write as writers
 
 from jobtool.status import Status
 from jobtool.walker import walker
-from jobtool.jobfolder import get_jobfolders, format_jobfolder_results, write_results
+from jobtool.jobfolder import get_jobfolders
 
 
 @click.group()
@@ -29,7 +31,7 @@ from jobtool.jobfolder import get_jobfolders, format_jobfolder_results, write_re
 @click.option('--logfilename', type=click.STRING, help='Name of log files')
 @click.pass_context
 def cli(
-    ctx,
+    ctx: click.Context,
     output: Optional[pathlib.Path],
     lines_checked: int,
     initialfilename: str,
@@ -45,7 +47,7 @@ def cli(
 @cli.command()
 @click.pass_context
 @click.option('--remove-none', is_flag=True, help='Remove all arguments that was not provided')
-def check_args(ctx: dict, remove_none: bool) -> None:
+def check_args(ctx: click.Context, remove_none: bool) -> None:
     """Outputs CLI context options - Mostly used for debugging"""
     if remove_none:
         options = {name: val for name, val in ctx.obj.items() if val is not None}
@@ -71,7 +73,7 @@ def get_status_list() -> None:
 @click.option('--without_status', is_flag=True, help='If True, the status is dropped')
 @click.pass_context
 def jobfolders(
-    ctx,
+    ctx: click.Context,
     folder: pathlib.Path,
     include: Optional[list[str]],
     exclude: Optional[list[str]],
@@ -80,20 +82,29 @@ def jobfolders(
 ) -> None:
     options = remove_none_provided_options(ctx.obj)
 
-    results = get_jobfolders(folder, include, exclude, **options)
-    formatted = format_jobfolder_results(results, format)
+    results = get_jobfolders(folder, include, exclude, with_status=True, **options)
+
+    match format:
+        case 'csv':
+            def writer(out: TextIO) -> None:
+                __formatted = map(formatters.csv_formatter, results)
+                writers.write_results_csv(out, __formatted, with_status=not without_status)
+        case 'json':
+            def writer(out: TextIO) -> None:
+                __formatted = map(formatters.json_formatter, results)
+                writers.write_results_json(out, __formatted, not without_status)
 
     if 'output' not in options:
-        write_results(sys.stdout, formatted, format, not without_status)
+        writer(sys.stdout)
     else:
         with open(options['output'], 'w') as filewrapper:
-            write_results(filewrapper, formatted, format, not without_status)
+            writer(filewrapper)
 
 
 @cli.command()
 @click.argument("folder", default='.', type=click.Path(exists=True, file_okay=False, path_type=pathlib.Path))
 @click.pass_context
-def display_converged(ctx, folder: os.PathLike) -> None:
+def display_converged(ctx: click.Context, folder: pathlib.Path) -> None:
     options = remove_none_provided_options(ctx.obj)
 
     structures = []
@@ -109,7 +120,7 @@ def display_converged(ctx, folder: os.PathLike) -> None:
 @cli.command()
 @click.argument("folder", default='.',  type=click.Path(exists=True, file_okay=False))
 @click.pass_context
-def count_statuses(ctx, folder: pathlib.Path) -> None:
+def count_statuses(ctx: click.Context, folder: pathlib.Path) -> None:
     options = remove_none_provided_options(ctx.obj)
 
     # Count jobfolders in directory
