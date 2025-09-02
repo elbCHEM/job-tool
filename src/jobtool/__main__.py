@@ -16,8 +16,8 @@ import ase.io
 import ase.visualize
 from typing import TextIO, Literal, Optional, Any
 
-import jobtool.format as formatters
 import jobtool.write as writers
+import jobtool.format as formatters
 
 from jobtool.status import Status
 from jobtool.walker import walker

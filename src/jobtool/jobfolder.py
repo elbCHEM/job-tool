@@ -16,7 +16,7 @@ from jobtool.walker import walker, Result
 from typing import Callable, Iterator, Literal, Optional, Sequence, overload
 
 
-type StatusLike = str | Status
+StatusLike = str | Status
 
 
 @overload
