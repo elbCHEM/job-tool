@@ -20,8 +20,7 @@ import jobtool.write as writers
 import jobtool.format as formatters
 
 from jobtool.status import Status
-from jobtool.walker import walker
-from jobtool.jobfolder import get_jobfolders
+from jobtool.jobfolder import get_jobfolders, status_count
 
 
 @click.group()
@@ -123,10 +122,7 @@ def display_converged(ctx: click.Context, folder: pathlib.Path) -> None:
 def count_statuses(ctx: click.Context, folder: pathlib.Path) -> None:
     options = remove_none_provided_options(ctx.obj)
 
-    # Count jobfolders in directory
-    count: dict[Status, int] = {}
-    for _, status in walker(folder, **options):
-        count[status] = count.get(status, 0) + 1
+    count = status_count(folder, **options)
 
     # Print to the user
     click.echo("Count of jobfolders with status")

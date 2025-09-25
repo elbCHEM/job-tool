@@ -39,6 +39,24 @@ def get_jobfolders(
     return results
 
 
+def status_count(
+    folder: str | pathlib.Path,
+    /,
+    lines_checked: int = 20,
+    initialfilename: str = 'initial.traj',
+    logfilename: str = 'log.txt',
+) -> dict[Status, int]:
+    """Make a summary of the statuses of all jobfolders in a directory."""
+    status_count: dict[Status, int] = {}
+    for _, status in get_jobfolders(folder,
+                                    lines_checked=lines_checked,
+                                    initialfilename=initialfilename,
+                                    logfilename=logfilename
+                                    ):
+        status_count[status] = status_count.get(status, 0) + 1
+    return status_count
+
+
 # To-Do: Add 'finished' option for input
 def filter_func(statuses: StatusLike | Sequence[StatusLike]) -> Callable[[Result], bool]:
     if isinstance(statuses, str | Status):
